@@ -1,0 +1,86 @@
+.info {
+
+   &__wrapper {
+      height: 599px;
+      margin: 144px 0 120px;
+   }
+
+   &__inner {
+      position: relative;
+   }
+
+   &__title {
+      h3{
+         font-family: 'Oswald', sans-serif;
+         font-size: 36px;
+         line-height: 53px;
+         font-weight: 700;
+         letter-spacing: 2.304px;
+         color: #333333;
+         margin-bottom: 4px;
+      }
+      p{
+         font-size: 42px;
+         line-height: 57px;
+         font-weight: 300;
+         letter-spacing: 2.688px;
+         color: #504E4E;
+      }
+   }
+
+   &__text-1,
+   &__text-2 {
+      font-size: 15px;
+      line-height: 25px;
+      font-weight: 300;
+      letter-spacing: 1.26px;
+      color: #5B5858;
+      width: 280px;
+      position: absolute;
+      &::before{
+         content: "";
+         position: absolute;
+         width: 20px;
+         height: 2px;
+         left: -30px;
+         top: 12px;
+         background: #353535;
+      }
+   }
+
+   &__text-1 {
+      top: 219px;
+      left: 51px;
+   }
+
+   &__text-2 {
+      top: 404px;
+      right: 0;
+   }
+
+   &__img-bg-1 {
+      position: absolute;
+      top: 0;
+      left: 193px;
+      z-index: -1;
+   }
+
+   &__img-bg-2 {
+      width: 309px;
+      height: 418px;
+      left: 403px;
+      top: 62px;
+      background: #4CAF50;
+      mix-blend-mode: normal;
+      opacity: 0.8;
+      position: absolute;
+      z-index: -2;
+   }
+
+   &__img-bg-3 {
+      position: absolute;
+      top: 158px;
+      right: 257px;
+      z-index: -3;
+   }
+}
