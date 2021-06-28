@@ -1,0 +1,110 @@
+.services {
+
+   &__wrapper {
+      background-color: #FBFBFB;
+      margin: 0px 50px 164px;
+   }
+
+   &__inner {
+      padding: 129px 0 136px;
+   }
+
+   &__title {
+      font-family: Oswald;
+      font-size: 48px;
+      line-height: 71px;
+      font-weight: 700;
+      letter-spacing: 3.072px;
+      color: #252525;
+      position: relative;
+      margin-bottom: 94px;
+      &::before{
+         content: "";
+         position: absolute;
+         width: 45px;
+         height: 2px;
+         left: 0px;
+         top: 72px;
+         background: #252525;
+      }
+   }
+
+   &__items {
+      display: flex;
+      justify-content: space-between;
+      max-height: 690px;
+   }
+
+   &__item {
+      width: 373px;
+      background: #FFFFFF;
+      padding: 53px 43px 35px;
+      position: relative;
+      &:hover{
+         border-bottom: 3px solid #70BF73;
+         .services__item-icon img{
+            opacity: 1;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+         }
+      }
+   }
+
+   &__item-title {
+      font-family: Oswald;
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 300;
+      letter-spacing: 1.28px;
+      text-transform: uppercase;
+      color: #252525;
+      position: relative;
+      margin-bottom: 36px;
+      &::before{
+         content: "";
+         position: absolute;
+         width: 35px;
+         height: 2px;
+         left: 0px;
+         top: 42px;
+         background: #252525;
+      }
+   }
+
+   &__item-text {
+      font-size: 12px;
+      line-height: 25px;
+      letter-spacing: 1.008px;
+      color: #777777;
+      margin-bottom: 19px;
+   }
+
+   &__item-link {
+      font-family: Oswald;
+      font-size: 10px;
+      line-height: 15px;
+      font-weight: 300;
+      letter-spacing: 0.64px;
+      text-transform: uppercase;
+      color: #252525;
+      opacity: 0.5;
+      &:hover{
+         opacity: 1;
+      }
+   }
+
+   &__item-icon {
+      position: absolute;
+      left: 288px;
+      top: 63px;
+      border-radius: 50%;
+      padding: 12px;
+      width: 50px;
+      height: 50px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      img{
+         width: 25px;
+         height: 25px;
+         opacity: 0.5;
+      }
+   }
+}

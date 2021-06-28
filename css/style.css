@@ -208,3 +208,123 @@ a {
   right: 257px;
   z-index: -3;
 }
+
+.services__wrapper {
+  background-color: #FBFBFB;
+  margin: 0px 50px 164px;
+}
+
+.services__inner {
+  padding: 129px 0 136px;
+}
+
+.services__title {
+  font-family: Oswald;
+  font-size: 48px;
+  line-height: 71px;
+  font-weight: 700;
+  letter-spacing: 3.072px;
+  color: #252525;
+  position: relative;
+  margin-bottom: 94px;
+}
+
+.services__title::before {
+  content: "";
+  position: absolute;
+  width: 45px;
+  height: 2px;
+  left: 0px;
+  top: 72px;
+  background: #252525;
+}
+
+.services__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-height: 690px;
+}
+
+.services__item {
+  width: 373px;
+  background: #FFFFFF;
+  padding: 53px 43px 35px;
+  position: relative;
+}
+
+.services__item:hover {
+  border-bottom: 3px solid #70BF73;
+}
+
+.services__item:hover .services__item-icon img {
+  opacity: 1;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.services__item-title {
+  font-family: Oswald;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+  color: #252525;
+  position: relative;
+  margin-bottom: 36px;
+}
+
+.services__item-title::before {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 2px;
+  left: 0px;
+  top: 42px;
+  background: #252525;
+}
+
+.services__item-text {
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 1.008px;
+  color: #777777;
+  margin-bottom: 19px;
+}
+
+.services__item-link {
+  font-family: Oswald;
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: 300;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+  color: #252525;
+  opacity: 0.5;
+}
+
+.services__item-link:hover {
+  opacity: 1;
+}
+
+.services__item-icon {
+  position: absolute;
+  left: 288px;
+  top: 63px;
+  border-radius: 50%;
+  padding: 12px;
+  width: 50px;
+  height: 50px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.services__item-icon img {
+  width: 25px;
+  height: 25px;
+  opacity: 0.5;
+}
