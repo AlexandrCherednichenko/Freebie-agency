@@ -135,7 +135,7 @@ a {
   position: relative;
 }
 
-.info__title h3 {
+.info__title p {
   font-family: 'Oswald', sans-serif;
   font-size: 36px;
   line-height: 53px;
@@ -145,7 +145,7 @@ a {
   margin-bottom: 4px;
 }
 
-.info__title p {
+.info__title span {
   font-size: 42px;
   line-height: 57px;
   font-weight: 300;

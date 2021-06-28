@@ -10,7 +10,7 @@
    }
 
    &__title {
-      h3{
+      p{
          font-family: 'Oswald', sans-serif;
          font-size: 36px;
          line-height: 53px;
@@ -19,7 +19,7 @@
          color: #333333;
          margin-bottom: 4px;
       }
-      p{
+      span{
          font-size: 42px;
          line-height: 57px;
          font-weight: 300;
