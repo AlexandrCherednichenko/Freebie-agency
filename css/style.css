@@ -216,6 +216,7 @@ a {
 
 .services__inner {
   padding: 129px 0 136px;
+  height: 690px;
 }
 
 .services__title {
@@ -246,7 +247,6 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-height: 690px;
 }
 
 .services__item {
