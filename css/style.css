@@ -328,3 +328,265 @@ a {
   height: 25px;
   opacity: 0.5;
 }
+
+.works__wrapper {
+  height: 1652px;
+  margin-bottom: 173px;
+}
+
+.works__inner {
+  margin-bottom: 177px;
+  padding-top: 45px;
+  position: relative;
+}
+
+.works__title {
+  font-family: Oswald;
+  font-size: 48px;
+  line-height: 71px;
+  font-weight: 700;
+  letter-spacing: 3.072px;
+  color: #252525;
+  position: relative;
+  margin-bottom: 53px;
+}
+
+.works__title::before {
+  content: "";
+  position: absolute;
+  width: 45px;
+  height: 2px;
+  left: 0px;
+  top: 72px;
+  background: #252525;
+}
+
+.works__nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.works__nav ul li {
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.832px;
+  color: #252525;
+  opacity: 0.3;
+}
+
+.works__nav ul li:hover {
+  font-weight: 500;
+  color: black;
+  opacity: 1;
+}
+
+.works__nav ul li + li {
+  margin-left: 41.5px;
+}
+
+.works__item {
+  position: relative;
+}
+
+.works__item.camera {
+  position: absolute;
+  left: 595px;
+  top: 0px;
+}
+
+.works__item.camera .works__item-title {
+  position: absolute;
+  left: 0px;
+  top: 262px;
+  width: 300px;
+}
+
+.works__item.camera .works__item-subtitle {
+  position: absolute;
+  left: 123px;
+  top: 468px;
+}
+
+.works__item.camera .works__item-subtitle p:nth-child(1) {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: right;
+}
+
+.works__item.camera .works__item-subtitle p:nth-child(2) {
+  text-align: right;
+}
+
+.works__item.camera .works__item-bg {
+  position: absolute;
+  left: 129px;
+  top: 0px;
+  z-index: -1;
+}
+
+.works__item.cat {
+  position: absolute;
+  left: 0px;
+  top: 361px;
+}
+
+.works__item.cat .works__item-title {
+  position: absolute;
+  left: 370px;
+  top: 268px;
+  width: 220px;
+}
+
+.works__item.cat .works__item-subtitle {
+  position: absolute;
+  left: 174px;
+  top: 467px;
+}
+
+.works__item.cat .works__item-subtitle p:nth-child(1) {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.works__item.cat .works__item-subtitle p:nth-child(2) {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.works__item.cat .works__item-subtitle a {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0.832px;
+  color: #252525;
+}
+
+.works__item.cat .works__item-bg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.works__item.imac {
+  position: absolute;
+  left: 595px;
+  top: 733px;
+}
+
+.works__item.imac .works__item-title {
+  position: absolute;
+  left: 0px;
+  top: 262px;
+  width: 410px;
+}
+
+.works__item.imac .works__item-subtitle {
+  position: absolute;
+  left: 117px;
+  top: 467px;
+}
+
+.works__item.imac .works__item-subtitle p:nth-child(1) {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: right;
+}
+
+.works__item.imac .works__item-subtitle p:nth-child(2) {
+  text-align: right;
+}
+
+.works__item.imac .works__item-bg {
+  position: absolute;
+  left: 129px;
+  top: 0px;
+  z-index: -1;
+}
+
+.works__item.macbook {
+  position: absolute;
+  left: 0px;
+  top: 1094px;
+}
+
+.works__item.macbook .works__item-title {
+  position: absolute;
+  left: 370px;
+  top: 268px;
+  width: 240px;
+}
+
+.works__item.macbook .works__item-subtitle {
+  position: absolute;
+  left: 174px;
+  top: 467px;
+}
+
+.works__item.macbook .works__item-subtitle p:nth-child(1) {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.works__item.macbook .works__item-subtitle p:nth-child(2) {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.works__item.macbook .works__item-bg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.works__item-title {
+  font-family: Oswald;
+  font-size: 48px;
+  line-height: 71px;
+  font-weight: 300;
+  letter-spacing: 3.072px;
+  color: #252525;
+}
+
+.works__item-subtitle {
+  width: 336px;
+}
+
+.works__item-subtitle p:nth-child(1) {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 300;
+  letter-spacing: 1.152px;
+  color: #252525;
+  margin-bottom: 17px;
+}
+
+.works__item-subtitle p:nth-child(2) {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.832px;
+  color: #C2C2C2;
+  margin-bottom: 20px;
+}
+
+.works__link {
+  font-family: Oswald;
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #252525;
+  position: absolute;
+  width: 70px;
+  left: 1118px;
+  top: 1629px;
+}
