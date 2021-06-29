@@ -1,0 +1,143 @@
+.team {
+
+   &__wrapper {
+      background-color: #FBFBFB;
+      margin: 0 50px 117px;
+   }
+
+   &__inner {
+      padding: 129px 0 167px;
+   }
+
+   &__title {
+      font-family: Oswald;
+      font-size: 48px;
+      line-height: 71px;
+      font-weight: 700;
+      letter-spacing: 3.072px;
+      color: #252525;
+      position: relative;
+      margin-bottom: 80px;
+      &::before{
+         content: "";
+         position: absolute;
+         width: 45px;
+         height: 2px;
+         left: 0px;
+         top: 72px;
+         background: #252525;
+      }
+   }
+
+   &__items {
+      display: flex;
+      .team__item + .team__item{
+         margin-left: 37px;
+      }
+   }
+
+   &__item {
+      width: 370px;
+      height: 398px;
+      overflow: hidden;
+      position: relative;
+      &:hover{
+         .team__item-info{
+            top: 243px;
+            transition-duration: 1s;
+         }
+         .team__item-info-bg{
+            transition-duration: 1s;
+            opacity: 0.92;
+         }
+         .team__item-info-content{
+            .name{
+               &::before{
+                  transition-duration: 0.5s;
+                  opacity: 1;
+               }
+            }
+         }
+      }
+   }
+
+   &__item-bg {
+      img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         -webkit-filter: grayscale(100%);
+         -moz-filter: grayscale(100%);
+         -ms-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+         filter: grayscale(100%);
+         -webkit-transition: all 1s;
+         -moz-transition: all 1s;
+         -o-transition: all 1s;
+         transition: all 1s;
+         &:hover{
+            -webkit-filter: none;
+            -moz-filter: none;
+            -ms-filter: none;
+            -o-filter: none;
+            filter: none;
+            filter: none;
+         }
+      }
+   }
+
+   &__item-info {
+      position: absolute;
+      top: 343px;
+   }
+
+   &__item-info-bg {
+      width: 370px;
+      height: 156px;
+      background: #FFFFFF;
+      opacity: 0.5;
+   }
+
+   &__item-info-content {
+      position: absolute;
+      text-align: center;
+      top: 20px;
+      left: 87px;
+      .name {
+         font-family: Oswald;
+         font-size: 18px;
+         line-height: 27px;
+         font-weight: 300;
+         letter-spacing: 1.152px;
+         color: #252525;
+         margin-bottom: 17px;
+         position: relative;
+         &::before{
+            content: "";
+            position: absolute;
+            width: 45px;
+            height: 2px;
+            left: 38%;
+            top: 34px;
+            background: #252525;
+            opacity: 0;
+         }
+      }
+      .profession {
+         font-family: Oswald;
+         font-size: 18px;
+         line-height: 27px;
+         font-weight: 300;
+         letter-spacing: 1.152px;
+         color: #252525;
+         margin-bottom: 12px;
+      }
+      .text {
+         font-size: 12px;
+         line-height: 25px;
+         letter-spacing: 1.008px;
+         color: #777777;
+      }
+   }
+}
+

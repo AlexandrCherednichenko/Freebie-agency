@@ -590,3 +590,149 @@ a {
   left: 1118px;
   top: 1629px;
 }
+
+.team__wrapper {
+  background-color: #FBFBFB;
+  margin: 0 50px 117px;
+}
+
+.team__inner {
+  padding: 129px 0 167px;
+}
+
+.team__title {
+  font-family: Oswald;
+  font-size: 48px;
+  line-height: 71px;
+  font-weight: 700;
+  letter-spacing: 3.072px;
+  color: #252525;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.team__title::before {
+  content: "";
+  position: absolute;
+  width: 45px;
+  height: 2px;
+  left: 0px;
+  top: 72px;
+  background: #252525;
+}
+
+.team__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team__items .team__item + .team__item {
+  margin-left: 37px;
+}
+
+.team__item {
+  width: 370px;
+  height: 398px;
+  overflow: hidden;
+  position: relative;
+}
+
+.team__item:hover .team__item-info {
+  top: 243px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.team__item:hover .team__item-info-bg {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  opacity: 0.92;
+}
+
+.team__item:hover .team__item-info-content .name::before {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  opacity: 1;
+}
+
+.team__item-bg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.team__item-bg img:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none;
+}
+
+.team__item-info {
+  position: absolute;
+  top: 343px;
+}
+
+.team__item-info-bg {
+  width: 370px;
+  height: 156px;
+  background: #FFFFFF;
+  opacity: 0.5;
+}
+
+.team__item-info-content {
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  left: 87px;
+}
+
+.team__item-info-content .name {
+  font-family: Oswald;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  letter-spacing: 1.152px;
+  color: #252525;
+  margin-bottom: 17px;
+  position: relative;
+}
+
+.team__item-info-content .name::before {
+  content: "";
+  position: absolute;
+  width: 45px;
+  height: 2px;
+  left: 38%;
+  top: 34px;
+  background: #252525;
+  opacity: 0;
+}
+
+.team__item-info-content .profession {
+  font-family: Oswald;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  letter-spacing: 1.152px;
+  color: #252525;
+  margin-bottom: 12px;
+}
+
+.team__item-info-content .text {
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 1.008px;
+  color: #777777;
+}
