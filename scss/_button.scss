@@ -1,0 +1,49 @@
+.button {
+
+   &__wrapper {
+      margin: 0 50px 0;
+   }
+
+   &__items {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__item {
+      width: 50%;
+      height: 300px;
+      text-align: center;
+      &:first-child{
+         background-color: #FBFBFB;
+         color: #373737;
+         img{
+         }
+      }
+      &:last-child{
+         background-color: #70BD59;
+         color: #ffffff;
+      }
+   }
+
+   &__item-icon{
+      margin: 70px 0 16px;
+   }
+
+   &__item-title {
+      font-family: Oswald;
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: 400;
+      letter-spacing: 2.66667px;
+      margin-bottom: 22px;
+   }
+
+   &__item-subtitle {
+      font-family: Oswald;
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 300;
+      letter-spacing: 1.55556px;
+      margin-bottom: 23px;
+   }
+}
