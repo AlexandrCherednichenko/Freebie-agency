@@ -556,6 +556,11 @@ a {
   color: #252525;
 }
 
+.works__item-title.line-through {
+  -webkit-text-decoration: line-through #4CAF50;
+          text-decoration: line-through #4CAF50;
+}
+
 .works__item-subtitle {
   width: 336px;
 }
@@ -576,6 +581,11 @@ a {
   letter-spacing: 0.832px;
   color: #C2C2C2;
   margin-bottom: 20px;
+}
+
+.works__item-subtitle .line-through {
+  -webkit-text-decoration: line-through #4CAF50;
+          text-decoration: line-through #4CAF50;
 }
 
 .works__link {

@@ -24,6 +24,21 @@
    .header__subtitle {
       margin-bottom: 250px;
    }
+   .works__item.camera .works__item-bg {
+      left: 0px;
+   }
+   .works__item.imac .works__item-bg {
+      left: 0px;
+   }
+   .works__item.cat .works__item-bg {
+      left: 100px;
+   }
+   .works__item.macbook .works__item-bg {
+      left: 100px;
+   }
+   .works__link {
+      left: 900px;
+   }
 }
 
 @media (max-width: 1140px){
@@ -53,6 +68,48 @@
    .info__img-bg-3 {
       right: 10%;
    }
+   .works__item-title {
+      font-size: 38px;
+      line-height: 55px;
+   }
+   .works__item.camera .works__item-bg img,
+   .works__item.imac .works__item-bg img,
+   .works__item.cat .works__item-bg img,
+   .works__item.macbook .works__item-bg img {
+      width: 300px;
+      height: 300px;
+   }
+   .works__item.camera .works__item-bg {
+      left: 40px;
+      top: 170px;
+   }.works__item.camera .works__item-subtitle {
+      left: 0px;
+   }
+   .works__item.cat .works__item-bg {
+      left: 150px;
+   }.works__item.cat .works__item-subtitle {
+      left: 150px;
+      top: 380px;
+   }
+   .works__item.imac .works__item-title {
+      width: 300px;
+   }
+   .works__item.imac .works__item-bg {
+      left: 40px;
+      top: 170px;
+   }.works__item.imac .works__item-subtitle {
+      left: 0px;
+   }
+   .works__item.macbook .works__item-bg {
+      left: 150px;
+   }.works__item.macbook .works__item-subtitle {
+      left: 150px;
+      top: 380px;
+   }
+   .works__link {
+      top: 1700px;
+      left: 0px;
+   }
 }
 
 @media (max-width: 960px){
@@ -70,6 +127,59 @@
       top: 15px;
       left: 170px;
    }
+   .works__wrapper {
+      height: 1950px;
+      margin-bottom: 100px;
+   }
+   .works__item.camera .works__item-title {
+      left: -500px;
+   }
+   .works__item.camera .works__item-subtitle {
+      left: -600px;
+   }
+   .works__item.camera .works__item-bg {
+      left: -300px;
+      top: 260px;
+   }
+   .works__item.cat .works__item-title {
+      left: 370px;
+      top: 360px;
+   }
+   .works__item.cat .works__item-subtitle {
+      left: 50px;
+      top: 580px;
+   }
+   .works__item.cat .works__item-bg {
+      left: 50px;
+      top: 270px;
+   }
+   .works__item.imac .works__item-title {
+      left: -500px;
+      top: 400px;
+   }
+   .works__item.imac .works__item-subtitle {
+      left: -600px;
+      top: 600px;
+   }
+   .works__item.imac .works__item-bg {
+      left: -300px;
+      top: 400px;
+   }
+   .works__item.macbook .works__item-title {
+      left: 370px;
+      top: 500px;
+   }
+   .works__item.macbook .works__item-subtitle {
+      left: 50px;
+      top: 750px;
+   }
+   .works__item.macbook .works__item-bg {
+      left: 50px;
+      top: 440px;
+   }
+   .works__link {
+      top: 1970px;
+   }
 }
 
 @media (max-width: 770px){
@@ -81,6 +191,109 @@
    }
    .info__img-bg-2 {
       left: 20%;
+   }
+}
+
+@media (max-width: 630px){
+   .works__wrapper {
+      margin-bottom: 80px;
+      height: 1700px;
+   }
+   .works__title{
+      margin-bottom: 30px;
+   }
+   .works__nav ul{
+      display: inline;
+   }
+   .works__nav ul li + li {
+      margin-left: 0px;
+      margin-top: 10px;
+   }
+   .works__item.camera .works__item-bg img,
+   .works__item.imac .works__item-bg img,
+   .works__item.cat .works__item-bg img,
+   .works__item.macbook .works__item-bg img {
+      width: 200px;
+      height: 200px;
+   }
+   .works__item.camera .works__item-title,
+   .works__item.cat .works__item-title,
+   .works__item.imac .works__item-title,
+   .works__item.macbook .works__item-title{
+      font-size: 28px;
+      line-height: 45px;
+   }
+   .works__item.camera .works__item-title {
+      left: -400px;
+      top: 300px;
+   }
+   .works__item.camera .works__item-subtitle {
+      left: -600px;
+      top: 530px;
+   }
+   .works__item.camera .works__item-bg {
+      left: -500px;
+      top: 360px;
+   }
+   .works__item.cat .works__item-title {
+      left: 140px;
+      top: 300px;
+   }
+   .works__item.cat .works__item-subtitle {
+      left: 50px;
+      top: 490px;
+   }
+   .works__item.cat .works__item-bg {
+      left: 50px;
+      top: 320px;
+   }
+   .works__item.imac .works__item-title {
+      left: -400px;
+      top: 300px;
+   }
+   .works__item.imac .works__item-subtitle {
+      left: -600px;
+      top: 530px;
+   }
+   .works__item.imac .works__item-bg {
+      left: -500px;
+      top: 360px;
+   }
+   .works__item.macbook .works__item-title {
+      left: 140px;
+      top: 300px;
+   }
+   .works__item.macbook .works__item-subtitle {
+      left: 50px;
+      top: 490px;
+   }
+   .works__item.macbook .works__item-bg {
+      left: 50px;
+      top: 320px;
+   }
+   .works__link {
+      top: 1700px;
+   }
+}
+
+@media (max-width: 610px){
+   .works__items{
+      display: none;
+   }
+   .works__wrapper {
+      margin-bottom: 80px;
+      height: auto;
+   }
+   .works__inner{
+      padding-top: 10px;
+      margin-bottom: 70px;
+   }
+   .works__title {
+      font-size: 38px;
+      line-height: 60px;
+   }
+   .works__link {
+      top: 300px;
    }
 }
 
