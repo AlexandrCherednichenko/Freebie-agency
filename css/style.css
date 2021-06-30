@@ -753,6 +753,7 @@ a {
   width: 20px;
   height: 20px;
   background: none;
+  cursor: pointer;
 }
 
 .slider__items .slick-arrow.slick-next {
