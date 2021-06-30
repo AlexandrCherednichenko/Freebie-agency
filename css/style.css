@@ -913,3 +913,57 @@ a {
   letter-spacing: 1.55556px;
   margin-bottom: 23px;
 }
+
+.footer__wrapper {
+  background-color: #2E2E2E;
+  margin: 0 50px 60px;
+}
+
+.footer__info {
+  font-family: Oswald;
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 300;
+  letter-spacing: 0.832px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  text-align: center;
+  padding-top: 105px;
+}
+
+.footer__info-adress {
+  margin-bottom: 10px;
+}
+
+.footer__info-contact {
+  margin-bottom: 39px;
+}
+
+.footer__info-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 80px;
+}
+
+.footer__info-social a + a {
+  margin-left: 20px;
+}
+
+.footer__info-social img {
+  width: 32px;
+  height: 32px;
+  opacity: 0.5;
+}
+
+.footer__info-social img:hover {
+  opacity: 1;
+}
+
+.footer__info-bottom {
+  background-color: #252525;
+  padding: 20px 0;
+}
