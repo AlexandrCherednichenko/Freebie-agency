@@ -110,6 +110,18 @@
       top: 1700px;
       left: 0px;
    }
+   .team__title {
+      padding: 70px 0 70px;
+   }
+   .team__title::before {
+      top: 140px;
+   }
+   .team__items {
+      padding-bottom: 100px;
+   }
+   .team__info-name::before{
+      display: none;
+   }
 }
 
 @media (max-width: 960px){
@@ -191,6 +203,13 @@
    }
    .info__img-bg-2 {
       left: 20%;
+   }
+   .team__items {
+      display: inline;
+   }
+   .team__items .team__item + .team__item {
+      margin-left: 0px;
+      margin-top: 20px;
    }
 }
 
