@@ -1,15 +1,15 @@
 .team {
 
    &__wrapper {
-      background-color: #FBFBFB;
-      margin: 0 50px 117px;
+      background: #FBFBFB;
+      margin: 0 50px;
    }
 
    &__inner {
-      padding: 129px 0 167px;
    }
 
    &__title {
+      padding: 135px 0 80px;
       font-family: Oswald;
       font-size: 48px;
       line-height: 71px;
@@ -17,54 +17,47 @@
       letter-spacing: 3.072px;
       color: #252525;
       position: relative;
-      margin-bottom: 80px;
       &::before{
          content: "";
          position: absolute;
          width: 45px;
          height: 2px;
          left: 0px;
-         top: 72px;
+         top: 207px;
          background: #252525;
       }
    }
 
    &__items {
       display: flex;
+      padding-bottom: 167px;
       .team__item + .team__item{
          margin-left: 37px;
       }
    }
 
    &__item {
-      width: 370px;
-      height: 398px;
-      overflow: hidden;
       position: relative;
+      overflow: hidden;
       &:hover{
-         .team__item-info{
-            top: 243px;
+         .team__info{
+            top: 245px;
+            background-color: hsla(175°, 0%, 100%, 0.9);
             transition-duration: 1s;
-         }
-         .team__item-info-bg{
-            transition-duration: 1s;
-            opacity: 0.92;
-         }
-         .team__item-info-content{
-            .name{
+            &-name{
                &::before{
-                  transition-duration: 0.5s;
                   opacity: 1;
+                  transition-duration: 0.5s;
                }
             }
          }
       }
    }
 
-   &__item-bg {
+   &__bg {
       img {
-         width: 100%;
-         height: 100%;
+         width: 370px;
+         height: 398px;
          object-fit: cover;
          -webkit-filter: grayscale(100%);
          -moz-filter: grayscale(100%);
@@ -86,30 +79,20 @@
       }
    }
 
-   &__item-info {
+   &__info {
       position: absolute;
-      top: 343px;
-   }
-
-   &__item-info-bg {
       width: 370px;
-      height: 156px;
-      background: #FFFFFF;
-      opacity: 0.5;
-   }
-
-   &__item-info-content {
-      position: absolute;
+      top: 340px;
       text-align: center;
-      top: 20px;
-      left: 87px;
-      .name {
+      background-color: hsla(175°, 0%, 100%, 0.5);
+      &-name{
          font-family: Oswald;
          font-size: 18px;
          line-height: 27px;
          font-weight: 300;
          letter-spacing: 1.152px;
          color: #252525;
+         margin-top: 19px;
          margin-bottom: 17px;
          position: relative;
          &::before{
@@ -117,13 +100,13 @@
             position: absolute;
             width: 45px;
             height: 2px;
-            left: 38%;
+            left: 163px;
             top: 34px;
             background: #252525;
             opacity: 0;
          }
       }
-      .profession {
+      &-profession {
          font-family: Oswald;
          font-size: 18px;
          line-height: 27px;
@@ -132,12 +115,12 @@
          color: #252525;
          margin-bottom: 12px;
       }
-      .text {
+      &-comment {
          font-size: 12px;
          line-height: 25px;
          letter-spacing: 1.008px;
          color: #777777;
+         padding-bottom: 30px;
       }
    }
 }
-
