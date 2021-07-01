@@ -301,6 +301,20 @@
    .works__link {
       top: 1700px;
    }
+   .button__item{
+      height: auto;
+   }
+   .button__item-icon {
+      padding-top: 40px;
+   }
+   .button__item-title{
+      font-size: 18px;
+      line-height: 30px;
+      margin-bottom: 10px;
+   }
+   .button__item-subtitle {
+      padding-bottom: 20px;
+   }
 }
 
 @media (max-width: 610px){
