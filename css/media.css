@@ -200,6 +200,12 @@
    .slider__item-star {
       margin-bottom: 60px;
    }
+   .footer__info {
+      padding-top: 50px;
+   }
+   .footer__info-social{
+      padding-bottom: 30px;
+   }
 }
 
 @media (max-width: 770px){
@@ -433,6 +439,15 @@
    }
    .services__wrapper {
       height: 700px;
+   }
+   .footer__info {
+      padding-top: 30px;
+   }
+   .footer__info-contact {
+      margin-bottom: 15px;
+   }
+   .footer__info-social{
+      padding-bottom: 15px;
    }
 }
 
