@@ -14,7 +14,12 @@
       left: 240px;
       top: 20px;
    }
-   
+   .slider__items .slick-arrow {
+      top: 210px;
+   }
+   .slider__item-star::before {
+      display: none;
+   }
 }
 
 @media (max-width: 1240px){
@@ -191,6 +196,9 @@
    }
    .works__link {
       top: 1970px;
+   }
+   .slider__item-star {
+      margin-bottom: 60px;
    }
 }
 
